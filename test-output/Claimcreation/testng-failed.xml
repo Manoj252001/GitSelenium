@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Claimcreation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="PO.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Sample1(failed)">
+    <classes>
+      <class name="TC.Claim_Testcase">
+        <methods>
+          <include name="Setup1"/>
+          <include name="CreateaclaimwithUser1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TC.Claim_Testcase -->
+    </classes>
+  </test> <!-- Sample1(failed) -->
+</suite> <!-- Failed suite [Claimcreation] -->
